@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&display=swap"); 
+.App { 
+    min-height: 100vh; 
+    height: auto; 
+    text-align: center; 
+    font-family: "Montserrat", sans-serif; 
+} 
+
+h1{
+  font-family: "Fredoka One", cursive;
+  color: #ff7a8a;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+pre{
+  font-size: 24px;
+  color: #113a5d;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+hr{
+  margin-top: 20px;
+  width: 60%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inp{
+  width: 200px;
+  height: 40px;
+  border: 2px solid #113a5d;
+  margin: 0px 10px;
+  padding-left: 6px;
+  font-size: 22px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  width: 90px;
+  height: 40px;
 }
